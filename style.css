@@ -825,6 +825,27 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
+.title-index {
+    margin-inline: 140px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.title-citation {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.title-citation-signature {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.title-bottom {
+    position: relative;
+    margin-inline: 140px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -845,6 +866,15 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+
+    .title-index {
+        margin-inline: 12%;
+    }
+
+    .title-bottom {
+        position: relative;
+        margin-inline: 12%;
     }
 }
 
@@ -886,6 +916,14 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+
+    .title-index {
+        margin-inline: 12%;
+    }
+
+    .title-bottom {
+        margin-inline: 12%;
     }
 }
 
@@ -1025,6 +1063,14 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .title-index {
+        margin-inline: 5%;
+    }
+
+    .title-bottom {
+        margin-inline: 5%;
     }
 }
 
